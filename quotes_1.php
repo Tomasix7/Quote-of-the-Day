@@ -20,7 +20,6 @@
         $quotes[] = " Природа никогда не спешит, но всегда успевает. ";
         $quotes[] = " Быть спокойным, непринуждённым и великодушным — это лекарство. ";
         $quotes[] = " Пробуя на вкус, не думай о том, что считается вкусным. ";
-    	// $number = mt_rand(0, count($quotes) - 1);
         
         $date = file_get_contents('../txt/date.txt'); // get the date of the quote of the day from a text file
         $todate = date('d.m.Y'); // Current system date
